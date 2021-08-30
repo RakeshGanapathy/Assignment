@@ -1,0 +1,179 @@
+{
+	"info": {
+		"_postman_id": "9404bc4d-1e24-425a-98a2-7e323cafcead",
+		"name": "LCS",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "LCSWithProperRequest Body",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"content-type": true
+				}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"setOfStrings\":[\r\n      {\r\n         \"value\":\"comcast\"\r\n      },\r\n      {\r\n         \"value\":\"communicate\"\r\n      },\r\n      {\r\n         \"value\":\"commutation\"\r\n      }\r\n   ]\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/lcs",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"lcs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "LCSWithSameString",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"content-type": true
+				}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"setOfStrings\":[\r\n      {\r\n         \"value\":\"comcast\"\r\n      },\r\n      {\r\n         \"value\":\"communicate\"\r\n      },\r\n      {\r\n         \"value\":\"commutation\"\r\n      }\r\n   ]\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/lcs",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"lcs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "LCSWithEmptyBody",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"content-type": true
+				}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"setOfStrings\":[\r\n      {\r\n         \"value\":\"comcast\"\r\n      },\r\n      {\r\n         \"value\":\"communicate\"\r\n      },\r\n      {\r\n         \"value\":\"commutation\"\r\n      }\r\n   ]\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/lcs",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"lcs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "LCSWithEmptyString Body",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"content-type": true
+				}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"setOfStrings\":[\r\n      {\r\n         \"value\":\"comcast\"\r\n      },\r\n      {\r\n         \"value\":\"communicate\"\r\n      },\r\n      {\r\n         \"value\":\"commutation\"\r\n      }\r\n   ]\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/lcs",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"lcs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "LCSWithOneString Body",
+			"protocolProfileBehavior": {
+				"disabledSystemHeaders": {
+					"content-type": true
+				}
+			},
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"setOfStrings\":[\r\n      {\r\n         \"value\":\"comcast\"\r\n      },\r\n      {\r\n         \"value\":\"communicate\"\r\n      },\r\n      {\r\n         \"value\":\"commutation\"\r\n      }\r\n   ]\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8080/lcs",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"lcs"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
